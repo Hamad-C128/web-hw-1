@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesR</title>
+<style type="text/css">
+		
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%; 
+        max-height: 100%; 
+        font-family:Sans-serif;
+        line-height: 1.5em;
+    }
+
+    main {
+        position: fixed;
+        top: 1px; /* Set this to the height of the header */
+        bottom: 1px; /* Set this to the height of the footer */
+        left: 200px; 
+        right: 200px;
+        overflow: auto; 
+        background: rgb(32, 30, 30);
+    }
+            
+   
+         
+    #left {
+        position: absolute; 
+        top: 0; /* Set this to the height of the header */
+        bottom: 0; /* Set this to the height of the footer */
+        left: 0; 
+        width: 200px;
+        overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+        background: rgb(58, 55, 55); 		
+    }
+
+    #right {
+        position: absolute; 
+        top: 0; /* Set this to the height of the header */
+        bottom: 0; /* Set this to the height of the footer */
+        right: 0; 
+        width: 200px;
+        overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+        background: rgb(58, 55, 55); 		
+    }
+            
+    .innertube {
+        margin: 15px; /* Provides padding for the content */
+    }
+    
+    p {
+        color: #fff;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul a {
+        color: darkgreen;
+        text-decoration: none;
+    }
+            
+    /*IE6 fix*/
+    * html body{
+        padding: 50px 200px 50px 200px; /* Set the first value to the height of the header, the second value to the width of the right column, third value to the height of the footer, and last value to the width of the left column */
+    }
+    
+    * html main{ 
+        height: 100%; 
+        width: 100%; 
+    }
+    
+
+    </style>
+
+</head>
+
+<body>	
+    
+            
+    <main>
+        <div class="innertube">
+            
+            <a href="file:///C:/Users/HMD/Documents/GitHub/web-hw-1/Movies.html#">
+                <p><i> MoviesR </i></p>
+            </a>
+
+
+           <br><br><br>
+            <video src="image/game.mp4" width="100%" controls>  
+            </video> <br> <br>
+            <a href="https://www.movs4u.live/tvshows/game-of-thrones/">
+            <button  type="button">شاهده الان</button>
+        </a><br> <br>
+            <video src="image/prison.mp4" width="100%" controls>
+            </video>
+            <br> <br>
+            <a href="https://www.movs4u.live/tvshows/prison-break/">
+            <button  type="button">شاهده الان</button>
+        </a><br> <br>
+            <video src="image/black.mp4" width="100%" controls>
+            </video>    
+            <br> <br>
+            <a href="https://www.movs4u.live/tvshows/black-sails/">
+            <button  type="button">شاهده الان</button>
+        </a><br> <br>        
+            <br><br><br><br><br><br><br>
+
+
+            <br> <br>
+            <br> <br> <br> 
+      <footer dir="ltr">
+     
+  <br> <br> <br> 
+          <a href="https://www.instagram.com/"><img src="image/ins.png" height="30" width="30" ></a>
+          <a href="https://github.com/Hamad-C128/"><img dir="ltr" src="image/gitw.png" height="30" width="30" ></a>
+          <a href="https://app.code.kw/user/%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B4%D9%85%D8%B1%D9%8A-C128"><img dir="ltr" src="image/bras.png" height="30" width="30" ></a>
+      </footer>
+
+
+        </div>
+    </main>
+
+    <nav id="left">
+        <div class="innertube">
+            
+
+        </div>
+    </nav>	
+    <div id="right">
+        <div class="innertube">
+            <p><script>generateText(2)</script></p>
+        </div>
+    </div>
+    
+    
+        
+</body>
+</html>
